@@ -1,0 +1,24 @@
+/* 
+    Document   : jsautocomplete.css
+    Created on : Dec 30, 2013, 11:46:43 AM
+    Author     : manujith
+    Description:
+        stylesheet for JsAutoComplete
+*/
+#jsac-results{
+    background-color: #FFFFFF;
+    position:absolute;
+    border: 1px solid #000000;
+    z-index: 10;
+    min-height: 10px;
+    visibility: hidden;
+}
+#jsac-results li{
+    list-style-type: none;
+    width:100%;
+    height: 20px;
+}
+#jsac-results li:hover{
+    background-color: #cccccc;
+}
+

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Auto Complete for JQuery</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="../front/js/jquery.js"></script>
+        <script type="text/javascript" src="jsautocomplete.js"></script>
+        <link rel="stylesheet" type="text/css" href="jsautocomplete.css" />
+        <script>
+            $(document).ready(function(){
+                var jsac = new JsAutoComplete("#search",4);
+            });
+        </script>
+    </head>
+    <body>
+        <input type="text" id="search" size="50" autocomplete="off" />               
+    </body>
+</html>
