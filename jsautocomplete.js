@@ -24,9 +24,9 @@ function JsAutoComplete(txtSearch,limit){
     
     //adjusting the results div to the search bar
     $(au_div).attr('id','jsac-results');
-    $(au_div).css('width',$('#search').outerWidth());
-    $(au_div).css('top',$('#search').offset().top+$('#search').outerHeight()+'px');
-    $(au_div).css('left',$('#search').offset().left)
+    $(au_div).css('width',$(txtSearch).outerWidth());
+    $(au_div).css('top',$(txtSearch).offset().top+$('#search').outerHeight()+'px');
+    $(au_div).css('left',$(txtSearch).offset().left)
     
     //append it
     $('body').append(au_div);
